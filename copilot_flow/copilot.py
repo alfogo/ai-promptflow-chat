@@ -1,4 +1,5 @@
 import os
+os.environ["PF_DISABLE_TRACING"] = "true"
 from dotenv import load_dotenv
 
 load_dotenv()

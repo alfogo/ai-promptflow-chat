@@ -11,6 +11,14 @@
           {
             "role": "assistant",
             "content": "The TrailWalker Hiking Shoes cost $110."
+          },
+          {
+            "role": "user",
+            "content": "how much do the Trailwalker shoes cost?"
+          },
+          {
+            "role": "assistant",
+            "content": "The TrailWalker Hiking Shoes cost $110."
           }
         ],
         "chat_input": "how much do the Trailwalker shoes cost?"
