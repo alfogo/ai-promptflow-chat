@@ -1,6 +1,8 @@
 import os
 from dotenv import load_dotenv
 
+os.environ["PF_DISABLE_TRACING"] = "true"
+
 load_dotenv()
 
 import requests
@@ -8,7 +10,7 @@ from azure.ai.ml import MLClient
 from azure.identity import DefaultAzureCredential
 
 query = "Are the trailwalker shoes waterproof?"
-endpoint_name = "tutorial-alfogo-endpoint"
+endpoint_name = "alv-ai-app-endpoint"
 
 client = MLClient(
     DefaultAzureCredential(),

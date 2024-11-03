@@ -72,7 +72,7 @@ def get_chat_response(chat_input: str, chat_history: list = []) -> ChatResponse:
     model_config = AzureOpenAIModelConfiguration(
         azure_deployment=os.getenv("AZURE_OPENAI_CHAT_DEPLOYMENT"),
         api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
-        azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+        azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
     )
 
     searchQuery = chat_input

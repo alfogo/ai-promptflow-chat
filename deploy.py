@@ -81,7 +81,7 @@ deployment = ManagedOnlineDeployment(
         "AZURE_OPENAI_EMBEDDING_DEPLOYMENT": os.getenv(
             "AZURE_OPENAI_EMBEDDING_DEPLOYMENT"
         ),
-        "AZUREAI_SEARCH_INDEX_NAME": os.getenv("AZUREAI_SEARCH_INDEX_NAME"),
+        "AZUREAI_SEARCH_INDEX_NAME": os.getenv("AZUREAI_SEARCH_INDEX_NAME")
     },
 )
 
