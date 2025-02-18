@@ -122,7 +122,7 @@ click==8.1.7
 cloudpickle==2.2.1
 colorama==0.4.6
 contextlib2==21.6.0
-cryptography==43.0.3
+cryptography==44.0.1
 dataclasses-json==0.6.7
 decorator==5.1.1
 Deprecated==1.2.14
